@@ -3,4 +3,13 @@
     <string name="author">Autor: 432432432432</string>
     <string name="washer">Pralka</string>
     <string name="program_hint">Podaj nr prania 1..12</string>
+    <string name="confirm">Zatwierdź</string>
+    <string name="program_missing">Numer prania: nie podano</string>
+    <string name="program_selected">Numer prania: %1$d</string>
+    <string name="vacuum">Odkurzacz</string>
+    <string name="turn_on">Włącz</string>
+    <string name="turn_off">Wyłącz</string>
+    <string name="vacuum_off">Odkurzacz wyłączony</string>
+    <string name="vacuum_on">Odkurzacz włączony</string>
+    <string name="charged">Status: naładowany</string>
 </resources>

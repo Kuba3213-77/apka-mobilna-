@@ -60,6 +60,70 @@
                     android:inputType="number"
                     android:textColor="@color/navy"
                     android:textColorHint="@color/navy" />
+
+                <Button
+                    android:id="@+id/confirmProgram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/royal_blue"
+                    android:text="@string/confirm"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/programResult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/program_missing" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:contentDescription="@string/vacuum"
+                android:scaleType="centerCrop"
+                android:src="@drawable/odkurzacz" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vacuum"
+                    android:textSize="22sp" />
+
+                <Button
+                    android:id="@+id/toggleVacuum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:backgroundTint="@color/royal_blue"
+                    android:text="@string/turn_on"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:id="@+id/vacuumStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vacuum_off" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/charged" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
